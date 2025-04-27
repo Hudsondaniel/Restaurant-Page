@@ -1,6 +1,6 @@
 import './style.css';
 import homePage from "./Home/home.js";
-import './home/homeStyle.css';
+import './Home/homeStyle.css';
 import './Menu/menuStyle.css';
 import './about/aboutStyle.css';
 import aboutPage from "./about/about.js";
