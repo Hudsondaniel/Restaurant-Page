@@ -16,7 +16,8 @@ module.exports = {
     }),
     new CopyWebpackPlugin({
       patterns: [
-        { from: 'public/Assets', to: 'Assets' }
+        { from: 'public/Assets', to: 'Assets' },
+        { from: 'public/favicon.svg', to: 'favicon.svg' }
       ]
     }),
   ],
