@@ -1,0 +1,159 @@
+.outer-box-about{
+    display: block;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+.pic-box-about{
+    width: 100%;
+    height: 100%;
+    padding: 110px 50px 50px 50px;
+}
+
+.pic-about{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+/* Feedback container */
+
+.text-div-about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 150px 50px 150px;
+    background-color: rgb(198, 235, 222);
+}
+
+.feedback-title{
+    padding-top: 10px;
+    
+}
+
+.feedback-text{
+    padding-bottom: 10px;
+
+}
+
+/* Styling for form elements */
+
+.form-div-about{
+    padding: 0px 50px 50px 50px;
+}
+
+.form {
+    display: flex; /* Make the form container a flexbox */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; 
+    margin: 0 auto; /* Center the form horizontally on the page */
+    padding: 20px; /* Add some padding for spacing */
+    border: 6px solid black; /* Optional: Add a border */
+    border-radius: 5px; /* Optional: Add rounded corners */
+    border-radius: 25px;
+    background-color:rgba(240, 161, 70, 0.514);
+}
+
+.form-group-one, .form-group-two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    
+}
+
+.form-group-one{
+    padding-top: 30px;
+}
+
+.form-group-two{
+    padding-top: 20px;
+}
+
+.form label {
+    display: block; /* Make labels display on separate lines */
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form input[type="number"] {
+    width: 600px; /* Set width for all text and number inputs */
+    padding: 10px;
+    border-radius: 3px;
+    border: 2px solid black;
+}
+
+.form textarea {
+    width: 100%; /* Set width for the textarea */
+    height: 100px; /* Adjust height as needed */
+    padding: 10px;
+    margin-top: 25px;
+    border: 2px solid black;
+    border-radius: 3px;
+}
+
+.form .button-container {
+    margin-top: 10px; /* Add some margin above the button */
+    text-align: center; /* Center the button horizontally */
+}
+
+.form button {
+    width: 300px;
+    padding: 15px 20px; /* Adjust padding as needed */
+    border: 2px solid rgb(15, 51, 1);
+    cursor: pointer; /* Indicate clickable button */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: orange;
+    font-size: 20px;
+    color: black;
+    border-radius: 10px;
+    transition: white 0.3s ease;
+}
+
+.form-title{
+    display: flex; 
+    justify-content: center;
+    color: orange;
+    padding-bottom: 20px;
+    font-size: 50px;
+    text-shadow: -1px 5px 0 #000,
+                1px 1px 0 #000,
+                1px -1px 0 #000,
+                -1px -1px 0 #000;
+}
+
+
+.text-box-about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 250px 50px 250px;
+}
+
+.text-p{
+    padding-bottom: 20px;
+    color: rgba(0, 0, 0, 0.568);
+}
+
+.title-text{
+    color: rgb(0, 0, 0);
+}
+
+.group-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    text-align: center;
+}

@@ -1,0 +1,261 @@
+.menu-container{
+    display: grid;
+    margin: 120px ;
+}
+
+.second-column{
+    border-right: 2px dashed black;
+    border-left: 2px dashed black;
+}
+
+.menu-one, .menu-two{
+    display: grid;
+    grid-template-rows: 80px 550px;
+    border: 2px solid black;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.menu-one-title, .menu-two-title{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.menu-one-title{
+    background-color: rgba(255, 151, 16, 0.438);
+}
+
+.menu-two-title{
+    background-color: rgba(14, 187, 164, 0.555);
+}
+
+
+.menu-one-items{
+    display: grid;
+    grid-template-rows: 190px  100px 100px auto;
+    margin: 40px 0px 0px 30px;
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+p{
+    margin-bottom: 6px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+h4{
+    margin-bottom: 5px;
+    margin-left: 30px;
+    font-weight: bolder;
+}
+
+span{
+    font-weight: 400;
+}
+
+.first-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 100px 30px 100px;
+    padding: 10px ;
+    font-weight: bolder;
+    font-size: medium;
+    background-color: rgba(255, 166, 0, 0.329);
+}
+
+.menu-two-items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/*Styling the custom bowl section of the menu */
+
+.custom-bowl-heading-one{
+    padding: 30px 0px 0px 30px;
+    
+}
+
+.ul-cutom-bowl-one{
+    padding-left: 80px;
+}
+
+.list-items-one{
+    padding: 6px;
+    list-style-type: disc;
+    font-weight: 30px;
+}
+
+.custom-bowl-heading-two{
+    padding: 30px 0px 0px 30px;
+}
+
+.ul-cutom-bowl-two{
+    padding-left: 80px;
+    list-style-type: disc;
+}
+
+.list-items-two{
+    padding: 6px;
+}
+
+.list-items-two-inside{
+    padding: 0px 0px 10px 20px;
+}
+
+.middle-div-heading-1{
+    padding: 30px 0px 0px 30px;
+}
+
+.middle-items{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0px 0px 15px 60px;
+}
+
+.middle-items-p{
+    padding-left: 40px;
+}
+
+.middle-bowl-list{
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.extras-list{
+    padding-left: 80px;
+}
+
+.price{
+    padding-left: 10px;
+}
+
+.items-list{
+    padding-bottom: 15px;
+    list-style-type: disc;
+}
+
+.second-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 100px 30px 100px;
+    padding: 10px ;
+    font-weight: bolder;
+    font-size: medium;
+    background-color: rgba(17, 153, 135, 0.308);
+}
+
+.outer-div-fouth-container-menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.first-inner-div-text, .second-inner-div-text{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    
+}
+
+.first-div-fourth, .second-div-fourth{
+    border: 2px solid black;
+}
+
+.first-inner-div-text, .second-inner-div{
+    background-color: rgba(255, 196, 0, 0.445);
+}
+
+/* Last section of the menu */
+/* Bao section */
+
+.first-p-bao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    font-weight: bold;
+}
+
+.bao{
+    padding-left: 40px;
+}
+
+.bao-in{
+    padding-left: 40px;
+}
+
+.bao-ingredients-bold{
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+
+.bao-combo{
+    padding-left: 80px;
+    padding-bottom: 20px;
+}
+
+.bao-combo-items{
+    list-style-type: disc;
+    padding-bottom: 10px;
+}
+
+.bao-special{
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.side{
+    padding: 30px 0px 0px 40px ;
+}
+
+.second-div-fourth{
+    display: grid;
+    grid-template-rows: 73px 1fr 0.3fr;
+}
+
+.second-inner-div-side{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    border-top:2px solid black;
+}
+.second-inner-div-side-one{
+    display: flex;
+    background-color: rgba(255, 196, 0, 0.445);
+
+}
+
+.second-inner-div-side-heading{
+    display: flex;
+    justify-content: center;
+    transform: rotate(-90deg);
+    align-items: center;
+    align-self: center; 
+    padding-bottom: 15px;
+}
+
+.drinks{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-bottom: 20px;
+}
+
+.drinks-items, .drinks-items1{
+    list-style-type: disc;
+    padding-bottom: 10px;
+}
+
+.drinks-items1{
+    padding-top: 20px;
+}
+

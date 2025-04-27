@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#content{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:hsl(0, 0%, 100%); 
+}
+
+/* Design for the app begins here */
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: hsl(37, 80%, 94%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+.Home-button, .menu-button{
+    margin-right: 100px;
+}
+
+.Home-button, .menu-button, .about-button {
+    border: none;
+    background-color: hsl(37, 80%, 94%);
+    padding-bottom: 5px;
+    position: relative;
+    font-size: 20px;
+}
+
+.Home-button::after, .menu-button::after, .about-button::after {
+    content: '';
+    position: absolute;
+    height: 5px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 0; /* Initially hide the underline */
+    background: orange;
+    transition: width .2s;
+}
+  
+.Home-button:hover::after, .menu-button:hover::after, .about-button:hover::after {
+    width: 100%;
+}
+  
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+.menu li {
+    margin-right: 150px; 
+    list-style-type: none;
+  }
+  
+  .menu li:last-child { 
+    margin-right: 0;
+  }
+  
+
+ul{
+    list-style-type: none;
+}
+
+nav a:hover{
+    color: orange;
+}
+
+li{
+   
+    font-size: 18px;
+    
+}
+
+.logo-img{
+    width: 50px;
+    height: 50px;
+    margin-left: 70px;
+}
+
+.order-online{
+    border: 2px solid rgb(15, 51, 1);
+    padding: 5px 10px 5px 10px; 
+    background-color: orange;
+    font-size: 18px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    margin-right: 70px;
+    
+}
+
+.order-online:hover{
+    background-color: rgb(255, 255, 255); 
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px 5px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: hsl(175, 94%, 21%);
+    color: white;
+    
+}
